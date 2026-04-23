@@ -54,12 +54,11 @@ ecommerce-churn-prediction-system/
 
 ## 📊 Model Performance
 
-(Add your actual results here)
+📌 Metrics are reported for the churn class (class 1), as identifying at-risk customers is the primary business objective.
 
-| Model               | Accuracy |
-| ------------------- | -------- |
-| Logistic Regression | XX%      |
-| Random Forest       | XX%      |
+| Model         | Accuracy | Precision | Recall | F1 Score |
+|---------------|----------|-----------|--------|----------|
+| Random Forest | 97%      | 91%       | 89%    | 90%      |
 
 ---
 
@@ -75,7 +74,7 @@ The project includes an interactive web application where users can:
 
 ## 📸 Screenshots & Features
 
-### 🏠 Home Page – Upload & System Overview
+###  > Home Page – Upload & System Overview
 ![Home Page](images/pic_1.png)
 
 👉 This is the main interface where users can upload a customer dataset (CSV).  
@@ -83,7 +82,7 @@ It provides an overview of the system and highlights key features like churn pre
 
 ---
 
-### 📊 Risk based Filtering
+### > Risk based Filtering
 ![Explore Customers](images/pic_3.png)
 
 👉 Enables filtering of customers based on risk segments (High, Medium, Low).  
@@ -91,7 +90,7 @@ Users can search specific customers and analyze large datasets interactively.
 
 ---
 
-### 🔍 Customer Deep Dive
+### > Explore Customers Individually
 ![Customer Deep Dive](images/pic_4.png)
 
 👉 Allows detailed analysis of individual customers by selecting a Customer ID.  
@@ -99,7 +98,7 @@ Displays churn status, risk level, churn probability, and key behavioral signals
 
 ---
 
-### 📈 Key Metrics & Insights Dashboard
+### > Key Metrics & Insights Dashboard
 ![Insights Dashboard](images/pic_2.png)
 
 👉 Provides high-level analytics including total customers, churn rate, and risk distribution.  
@@ -107,7 +106,7 @@ Includes visual charts like churn distribution and customer segmentation for bet
 
 ---
 
-### 📥 Download & Reporting System
+### > Download & Reporting System
 ![Download Reports](images/pic_5.png)
 
 👉 Users can download filtered data or full analysis reports in CSV or EXCEL.  
@@ -136,7 +135,7 @@ python -m streamlit run app.py
 ## 📁 Dataset
 
 * E-commerce customer dataset used for churn prediction
-  (Add source if applicable)
+  [(https://www.kaggle.com/datasets/vishardmehta/e-commerce-customer-churn-prediction-dataset)]
 
 ---
 
